@@ -30,6 +30,7 @@ This repository contains four Python scripts designed for backtesting trading st
    - This script performs a grid search to optimize the short and long Simple Moving Average (SMA) combinations for a golden cross strategy.
    - By default, it plots the performance chart for Amazon. Users can modify the stock by changing the input area in lines 16 to 25 of the code.
    - Refer to the list of stocks available for testing in the `sp500_sample` variable located on line 12.
+     
    **Usage**:
    ```bash
    python backtest_optimize.py
@@ -37,6 +38,7 @@ This repository contains four Python scripts designed for backtesting trading st
 4. **backtest_sharpe.py**
    - This script applies the `SpotGreatTrend` strategy to the top 100 S&P 500 companies.
    - By default, it plots the performance for Amazon and outputs the average return of the buy-and-hold strategy compared with the expected return, variance, Sharpe ratio, average trades count, and average win rate of the strategy.
+     
     **Usage**:
    ```bash
    python backtest_sharpe.py
