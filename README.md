@@ -5,7 +5,7 @@
 This repository contains four Python scripts designed for backtesting trading strategies using historical stock data from the S&P 500. Each script implements different strategies and analyses, allowing users to evaluate stock performance against various metrics.
 
 ## Files
-When executing the following script, make sure that the folder strategy is in the same directory.
+When executing the following scripts, make sure that the folder strategy is in the same directory.
 
 1. **backtest.py**
    - This script allows users to select a trading strategy from the available options. After running the script, users are prompted to choose a strategy.
